@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students</title>
+</head>
+<body>
+    <h1>Student List</h1>
+    <a href="/">← Back</a>
+    <ul>
+        {% for student in students %}
+            <li>
+                <a href="{{ url_for('student_detail', id=student['id']) }}">
+                    {{ student['name'] }} ({{ student['email'] }})
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
