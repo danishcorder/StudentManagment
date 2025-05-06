@@ -1,15 +1,32 @@
-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: blue;
-}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 30px;
+        background-image: url('https://pixabay.com/photos/education-classroom-school-1868052/');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        text-align: center;
+        color: #000;
+    }
 
-h1 {
-    color: blue;
-}
+    img {
+        width: 80%;
+        max-width: 600px;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
 
-nav a {
-    margin-right: 10px;
-    text-decoration: none;
-    color: blue;
-}
+    nav {
+        margin: 20px 0;
+    }
+
+    nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: red;
+        font-weight: bold;
+    }
+</style>
+
