@@ -2,7 +2,7 @@
     body {
         font-family: Arial, sans-serif;
         padding: 30px;
-        background-image: url('https://pixabay.com/photos/education-classroom-school-1868052/');
+        background-image: url(https://pixabay.com/photos/education-classroom-school-1868052/);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
